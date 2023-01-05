@@ -6,7 +6,7 @@ It requires you to be running https://github.com/nonoo/kappanhang with the -s op
 Because the CI-V protocal used to communicate with the Icom IC-705 only returns the time to the nearest minute, this script will run for up to 60 seconds while it waits to detect the top of a minute.
 
 # Usage
-python3 ic705wifitime.py <hostname>
+python3 set_time_from_ic705.py <serial_port_name>
 
 # TODO
 * Refactor/improve code
